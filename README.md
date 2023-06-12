@@ -31,7 +31,7 @@ We used the Slowfast model with batch size `8`, img_size `224` and frames `25`
 #### Testing:
 After training the model ,run the `predictions()` giving the video to predict as input
 
-Then it will show what the model has predicted 
+Then it will show what the model has been predicted 
 
 ---------------------------------------------------------------
 ### User Interface:
