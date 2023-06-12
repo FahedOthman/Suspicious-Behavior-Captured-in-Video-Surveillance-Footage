@@ -12,6 +12,7 @@ https://github.com/FahedOthman/Suspicious-Behavior-Captured-in-Video-Surveillanc
 Download the Requirements.txt file 
 
 `pip install -r Requirements.txt`
+
 ---------------------------------------------------------------
 ### YOLOv7 :
 ---------------------------------------------------------------
