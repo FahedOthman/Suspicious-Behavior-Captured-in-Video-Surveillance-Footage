@@ -12,6 +12,7 @@ https://github.com/FahedOthman/Suspicious-Behavior-Captured-in-Video-Surveillanc
 Download the Requirements.txt file 
 
 `pip install -r Requirements.txt`
+---------------------------------------------------------------
 ### YOLOv7 :
 ---------------------------------------------------------------
 ### Classifier:
@@ -22,17 +23,17 @@ Download the Requirements.txt file
   4. run `python utilties/create_normal_class.py`
   5. run `python utilties/preprocess.py`
 
-Training:
+#### Training:
 Using `train_set.ipynb` we train the model using this file , a few adjustments is needed in `main()`
 
 We used the Slowfast model with batch size `8`, img_size `224` and frames `25`
 
-Testing:
+#### Testing:
 After training the model ,run the `predictions()` giving the video to predict as input
 
 Then it will show what the model has predicted 
 
-
+---------------------------------------------------------------
 ### User Interface:
 Navigate to a specific directory: `cd User_Interface`
 
@@ -40,7 +41,7 @@ Then run the command : `streamlit run app.py`
 
 The UI will open in a Web browser
 
-### Run Custom Videos:
+#### Run Custom Videos:
 Open the `Settings.py` file 
 
 Save the video that you want to use in `User_Interface/video`
@@ -65,7 +66,7 @@ VIDEOS_DICT = {
 
 
 
-
+---------------------------------------------------------------
 ## References :
 YOLO v7: https://github.com/WongKinYiu/yolov7
 
