@@ -17,7 +17,7 @@ Download the Requirements.txt file
 
 ---------------------------------------------------------------
 ### YOLOv7 :
-#### Get the File
+#### Get the File:
 Download the file from the following link: https://drive.google.com/drive/folders/11RGkMSkPxRuI9ZtIwHN5-Ogz7gnfXq88?usp=sharing
 
 Move it to your google drive
