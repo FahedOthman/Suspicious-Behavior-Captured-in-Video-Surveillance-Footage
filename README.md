@@ -13,8 +13,9 @@ Download the Requirements.txt file
 
 `pip install -r Requirements.txt`
 ### YOLOv7 :
+---------------------------------------------------------------
 ### Classifier:
-PreProcessing:
+#### PreProcessing:
   1. First extract the dataset folder to the same folder as the repository
   2. The `utils` folder contains 3 python scripts to run
   3. run `python utilties/resort_dataset.py`
