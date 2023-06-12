@@ -21,24 +21,24 @@ Then run the command : `streamlit run app.py`
 
 The UI will open in a Web browser
 
-Then Change the name of `video_1.mp4` for the video that you want ,in the `VIDEO_1_PATH` and `VIDEOS_DICT` code
 ### Run Custom Videos:
 Open the `Settings.py` file 
 
 Save the video that you want to use in `User_Interface/video`
+
+Then Change the name of `video_1.mp4` for the video that you want ,in the `VIDEO_1_PATH` and `VIDEOS_DICT` code
+
 ```python
 VIDEO_DIR = ROOT / 'videos' 
 
-# Edit here
-VIDEO_1_PATH = VIDEO_DIR / 'video_1.mp4' 
-VIDEO_2_PATH = VIDEO_DIR / 'video_2.mp4'
-VIDEO_3_PATH = VIDEO_DIR / 'video_3.mp4'
+VIDEO_1_PATH = VIDEO_DIR / 'video_1.mp4' # Edit here
+VIDEO_2_PATH = VIDEO_DIR / 'video_2.mp4' # Edit here
+VIDEO_3_PATH = VIDEO_DIR / 'video_3.mp4' # Edit here
 
-# Edit here
 VIDEOS_DICT = {
-    'video_1': VIDEO_1_PATH,
-    'video_2': VIDEO_2_PATH,
-    'video_3': VIDEO_3_PATH,
+ # Edit here   'video_1': VIDEO_1_PATH,
+ # Edit here  'video_2': VIDEO_2_PATH,
+ # Edit here  'video_3': VIDEO_3_PATH,
 }
 
 
