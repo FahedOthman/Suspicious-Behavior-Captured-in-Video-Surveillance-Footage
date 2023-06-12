@@ -6,6 +6,7 @@ Detection of Suspicious Behavior Captured in Video Surveillance Footage Using De
  Delete the second DCSASS Dataset folder and Labels folder
 ### Requirments:
 Download the Requirements.txt file 
+pip install -r Requirements.txt
 ### YOLOv7 :
 
 
