@@ -1,0 +1,4 @@
+0 Shooting
+1 Shoplifting
+2 Stealing
+3 Vandalism
