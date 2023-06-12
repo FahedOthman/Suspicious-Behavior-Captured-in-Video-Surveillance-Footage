@@ -5,6 +5,8 @@ Detection of Suspicious Behavior Captured in Video Surveillance Footage Using De
  https://www.kaggle.com/mateohervas/dcsass-dataset   
  Delete the second DCSASS Dataset folder and Labels folder
  
+ We used only the last 4 classes
+ 
 ### Clone the Repository:
 https://github.com/FahedOthman/Suspicious-Behavior-Captured-in-Video-Surveillance-Footage.git
 
@@ -21,8 +23,7 @@ Download the Requirements.txt file
   1. First extract the dataset folder to the same folder as the repository
   2. The `utils` folder contains 3 python scripts to run
   3. run `python utilties/resort_dataset.py`
-  4. run `python utilties/create_normal_class.py`
-  5. run `python utilties/preprocess.py`
+  4. run `python utilties/preprocess.py`
 
 #### Training:
 Using `train_set.ipynb` we train the model using this file , a few adjustments is needed in `main()`
