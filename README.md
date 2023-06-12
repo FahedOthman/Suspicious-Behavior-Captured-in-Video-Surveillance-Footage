@@ -14,6 +14,24 @@ Download the Requirements.txt file
 `pip install -r Requirements.txt`
 ### YOLOv7 :
 ### Classifier:
+PreProcessing:
+  1. First extract the dataset folder to the same folder as the repository
+  2. The `utils` folder contains 3 python scripts to run
+  3. run `python utilties/resort_dataset.py`
+  4. run `python utilties/create_normal_class.py`
+  5. run `python utilties/preprocess.py`
+
+Training:
+Using `train_set.ipynb` we train the model using this file , a few adjustments is needed in `main()`
+
+We used the Slowfast model with batch size `8`, img_size `224` and frames `25`
+
+Testing:
+After training the model ,run the `predictions()` giving the video to predict as input
+
+Then it will show what the model has predicted 
+
+
 ### User Interface:
 Navigate to a specific directory: `cd User_Interface`
 
@@ -36,9 +54,9 @@ VIDEO_2_PATH = VIDEO_DIR / 'video_2.mp4' # Edit here
 VIDEO_3_PATH = VIDEO_DIR / 'video_3.mp4' # Edit here
 
 VIDEOS_DICT = {
- # Edit here   'video_1': VIDEO_1_PATH,
- # Edit here  'video_2': VIDEO_2_PATH,
- # Edit here  'video_3': VIDEO_3_PATH,
+    'video_1': VIDEO_1_PATH, # Edit here
+    'video_2': VIDEO_2_PATH, # Edit here
+    'video_3': VIDEO_3_PATH, # Edit here
 }
 
 
